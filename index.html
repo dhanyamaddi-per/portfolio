@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dhanya M | Data Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">DM</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-greeting">Hello, I'm</p>
+      <h1 class="hero-name">Dhanya M</h1>
+      <h2 class="hero-title">Data Engineer</h2>
+      <p class="hero-tagline">Building scalable data pipelines &amp; analytics systems that turn raw data into business impact.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <span class="stat-number" data-target="6">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="3">0</span>
+          <span class="stat-label">AWS Certifications</span>
+        </div>
+        <div class="stat">
+          <span class="stat-number" data-target="3.93">0</span>
+          <span class="stat-label">GPA at GMU</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>Data Engineer with <strong>6+ years of experience</strong> building scalable data pipelines, analytics datasets, and self-serve reporting systems across <strong>AWS and Azure</strong>. I have strong expertise in SQL, Python, and data modelling, with a proven ability to transform raw data into trusted, business-ready datasets used by sales, marketing, and finance teams.</p>
+          <p>I'm experienced in partnering with data science, infrastructure, and cross-functional stakeholders to design reliable data workflows, improve data accessibility, and enable data-driven decision-making at scale. I hold an <strong>MS in Data Analytics Engineering</strong> from George Mason University with a <strong>3.93 GPA</strong>.</p>
+          <p>Known for balancing fast, pragmatic solutions with long-term scalable architecture.</p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight-card">
+            <div class="highlight-icon">&#9729;</div>
+            <h3>Cloud Platforms</h3>
+            <p>AWS &amp; Azure certified, building production-grade data infrastructure</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">&#9881;</div>
+            <h3>Pipeline Engineering</h3>
+            <p>End-to-end ETL/ELT with Airflow, dbt, Glue, and Data Factory</p>
+          </div>
+          <div class="highlight-card">
+            <div class="highlight-icon">&#9783;</div>
+            <h3>Analytics & BI</h3>
+            <p>Self-serve dashboards with Tableau, Power BI, and QuickSight</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="section section-alt" id="skills">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#128202;</span> Analytics &amp; BI
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Tableau</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Looker</span>
+            <span class="skill-tag">QuickSight</span>
+            <span class="skill-tag">Excel</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#128187;</span> Programming
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#9729;</span> Cloud &amp; ETL
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">AWS S3</span>
+            <span class="skill-tag">Lambda</span>
+            <span class="skill-tag">Glue</span>
+            <span class="skill-tag">Redshift</span>
+            <span class="skill-tag">Azure Data Factory</span>
+            <span class="skill-tag">Synapse</span>
+            <span class="skill-tag">Snowflake</span>
+            <span class="skill-tag">Airflow</span>
+            <span class="skill-tag">dbt</span>
+            <span class="skill-tag">Dagster</span>
+            <span class="skill-tag">SSIS</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#128451;</span> Databases
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">PostgreSQL</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">NoSQL</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#128736;</span> Data Engineering
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ETL/ELT Pipelines</span>
+            <span class="skill-tag">Data Modeling</span>
+            <span class="skill-tag">Schema Design</span>
+            <span class="skill-tag">Data Validation</span>
+            <span class="skill-tag">Pipeline Orchestration</span>
+            <span class="skill-tag">Feature Engineering</span>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h3 class="skill-category-title">
+            <span class="skill-icon">&#128295;</span> DevOps &amp; Backend
+          </h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Docker</span>
+            <span class="skill-tag">Kubernetes</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">GitHub Actions</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Flask</span>
+            <span class="skill-tag">FastAPI</span>
+            <span class="skill-tag">Linux</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Data Engineer</h3>
+                <p class="timeline-company">Bluehorse Digital &mdash; Virginia, USA</p>
+              </div>
+              <span class="timeline-date">Jul 2025 &ndash; Present</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built and maintained scalable data pipelines using <strong>Azure Data Factory &amp; Databricks</strong>, enabling reliable ingestion and transformation of high-volume financial data.</li>
+              <li>Designed analytics-ready data models, improving data accessibility and reducing ad-hoc query effort by <strong>30%</strong>.</li>
+              <li>Partnered with sales, marketing, and finance stakeholders to define data requirements and deliver reusable datasets for reporting and forecasting.</li>
+              <li>Developed modular SQL transformation layers (dbt-style approach), improving maintainability across data workflows.</li>
+              <li>Implemented data validation and monitoring checks, reducing data discrepancies by <strong>25%</strong>.</li>
+              <li>Integrated <strong>Azure Synapse with Power BI</strong>, enabling self-serve dashboards and improving reporting efficiency by <strong>35%</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Data Engineer</h3>
+                <p class="timeline-company">Infosys Limited &mdash; India</p>
+              </div>
+              <span class="timeline-date">Dec 2021 &ndash; May 2023</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Developed end-to-end <strong>ETL pipelines on AWS</strong> (Glue, Lambda, Redshift) to ingest and transform structured and semi-structured data.</li>
+              <li>Designed and optimized data warehouse schemas, improving query performance by <strong>45%</strong>.</li>
+              <li>Collaborated with data scientists to build feature-ready datasets, improving churn analysis outcomes by <strong>18%</strong>.</li>
+              <li>Migrated legacy reporting systems to cloud-based analytics platforms, reducing reporting latency.</li>
+              <li>Built interactive <strong>Power BI</strong> dashboards connected to Redshift for stakeholder self-service.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-marker"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <h3 class="timeline-role">Junior Data Engineer</h3>
+                <p class="timeline-company">Happi Mobiles Pvt. Ltd. &mdash; India</p>
+              </div>
+              <span class="timeline-date">Mar 2018 &ndash; Dec 2021</span>
+            </div>
+            <ul class="timeline-details">
+              <li>Built data pipelines using <strong>AWS (S3, Lambda, Glue)</strong> to consolidate data from 200+ retail stores, improving reporting speed by <strong>30%</strong>.</li>
+              <li>Designed structured data models and reporting tables, enabling consistent business insights across departments.</li>
+              <li>Developed self-serve dashboards (<strong>Tableau, QuickSight</strong>), reducing manual reporting effort by <strong>40%</strong>.</li>
+              <li>Performed data analysis using Python and SQL, identifying trends that improved profit margins by <strong>15%</strong>.</li>
+              <li>Optimized SQL queries and indexing strategies, reducing query runtime by <strong>25%</strong>.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="section section-alt" id="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+
+        <div class="project-card" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon">&#129302;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Fine-Tuning LLaMA for Clinical Text</h3>
+          <p class="project-desc">Fine-tuned Meta's LLaMA model on MIMIC-III datasets using LoRA for parameter-efficient training. Improved classification accuracy from 72% to 84% while reducing GPU usage by 40%. Deployed via Streamlit for real-time clinical triage support.</p>
+          <div class="project-tags">
+            <span>LLaMA</span><span>LoRA</span><span>NLP</span><span>Streamlit</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon">&#128172;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Mental Health Chatbot Using GPT-3.5</h3>
+          <p class="project-desc">Built and deployed a Flask-based chatbot integrating OpenAI GPT-3.5 for multi-stage symptom assessment, mood analysis, and history collection. Enhanced error handling and off-topic response management by 35% using prompt engineering.</p>
+          <div class="project-tags">
+            <span>GPT-3.5</span><span>Flask</span><span>NLP</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="data">
+          <div class="project-card-header">
+            <div class="project-icon">&#128200;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Sales-Data-Analysis" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Sales Data Analysis</h3>
+          <p class="project-desc">Performs exploratory and statistical analysis on sample sales data using Python and visualization tools. Uncovers trends, patterns, and actionable business insights from sales datasets.</p>
+          <div class="project-tags">
+            <span>R</span><span>Data Analysis</span><span>Visualization</span><span>Statistics</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="data">
+          <div class="project-card-header">
+            <div class="project-icon">&#127744;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Global-Earthquake-Analysis-2023-" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Global Earthquake Analysis 2023</h3>
+          <p class="project-desc">End-to-end data analysis project on global earthquakes using clustering, mapping, and Tableau dashboards. Visualizes seismic patterns and risk zones worldwide.</p>
+          <div class="project-tags">
+            <span>HTML</span><span>Tableau</span><span>Clustering</span><span>Mapping</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ml">
+          <div class="project-card-header">
+            <div class="project-icon">&#128680;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Crisis-Tweet-Classification-using-Apache-Spark" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Crisis Tweet Classification</h3>
+          <p class="project-desc">Applied NLP and ML models (Random Forest, Logistic Regression, Naive Bayes) achieving 73% accuracy, outperforming baselines by 20%. Interactive dashboards with MongoDB and Folium for spatial crisis tweet visualization.</p>
+          <div class="project-tags">
+            <span>Apache Spark</span><span>NLP</span><span>ML</span><span>MongoDB</span><span>Folium</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="data">
+          <div class="project-card-header">
+            <div class="project-icon">&#127869;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Dolce-Vita-Restaurant-Review-Analysis" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Restaurant Review Analysis</h3>
+          <p class="project-desc">NLP-based project analyzing customer reviews to uncover patterns in low-rated feedback using sentiment analysis. Helps restaurants identify key areas for improvement.</p>
+          <div class="project-tags">
+            <span>NLP</span><span>Sentiment Analysis</span><span>Jupyter</span><span>Python</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="tool">
+          <div class="project-card-header">
+            <div class="project-icon">&#128065;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Color-Vision-Chatbot-Testing-System" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Color Blindness Testing Tool</h3>
+          <p class="project-desc">Developed a chatbot using Python and Tkinter for color blindness testing and real-time color identification. Integrated OpenCV for object color detection and Azure Translator API for multilingual support.</p>
+          <div class="project-tags">
+            <span>Python</span><span>OpenCV</span><span>Tkinter</span><span>Azure</span>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="data">
+          <div class="project-card-header">
+            <div class="project-icon">&#128027;</div>
+            <div class="project-links">
+              <a href="https://github.com/dhanyamaddi-per/Bedbug-Infestation-Analysis" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Bedbug Infestation Analysis</h3>
+          <p class="project-desc">Analyzes a bedbug incident reporting dataset using data cleaning, SQL queries, and interactive HTML visualizations to uncover infestation patterns and trends.</p>
+          <div class="project-tags">
+            <span>R</span><span>SQL</span><span>HTML</span><span>Data Cleaning</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Certifications -->
+  <section class="section" id="education">
+    <div class="container">
+      <h2 class="section-title">Education &amp; Certifications</h2>
+      <div class="edu-grid">
+        <div class="edu-card">
+          <div class="edu-icon">&#127891;</div>
+          <h3>MS in Data Analytics Engineering</h3>
+          <p class="edu-school">George Mason University, Fairfax, VA</p>
+          <p class="edu-gpa">CGPA: 3.93 / 4.0</p>
+          <div class="edu-subjects">
+            <span>Applied Statistics</span>
+            <span>Data Visualization</span>
+            <span>Big Data</span>
+            <span>Machine Learning</span>
+            <span>NLP</span>
+          </div>
+        </div>
+        <div class="certs-container">
+          <div class="cert-card">
+            <div class="cert-badge">AWS</div>
+            <div>
+              <h4>Certified Machine Learning Engineer</h4>
+              <p>Associate Level</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-badge">AWS</div>
+            <div>
+              <h4>AI Practitioner</h4>
+              <p>Foundational Level</p>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-badge">AWS</div>
+            <div>
+              <h4>Cloud Practitioner</h4>
+              <p>Foundational Level</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section section-alt" id="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <p class="contact-intro">I'm currently open to new opportunities. Whether you have a question or just want to say hi, feel free to reach out!</p>
+      <div class="contact-cards">
+        <a href="mailto:mdhanya1351@gmail.com" class="contact-card">
+          <div class="contact-icon">&#9993;</div>
+          <h3>Email</h3>
+          <p>mdhanya1351@gmail.com</p>
+        </a>
+        <a href="tel:+15715469305" class="contact-card">
+          <div class="contact-icon">&#128222;</div>
+          <h3>Phone</h3>
+          <p>+1 (571) 546-9305</p>
+        </a>
+        <a href="https://github.com/dhanyamaddi-per" target="_blank" rel="noopener noreferrer" class="contact-card">
+          <div class="contact-icon">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+          </div>
+          <h3>GitHub</h3>
+          <p>dhanyamaddi-per</p>
+        </a>
+        <div class="contact-card">
+          <div class="contact-icon">&#128205;</div>
+          <h3>Location</h3>
+          <p>Aldie, Virginia, USA</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2026 Dhanya M. Built with passion for data.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
